@@ -1,4 +1,4 @@
-### :boom: **This image is [now official](https://twitter.com/LibreNMS/status/1054678514845315072) and maintained on the [LibreNMS organization's repository](https://github.com/librenms)!**
+### :boom: **This image is [now official](https://twitter.com/LibreNMS/status/1054678514845315072) and maintained on the [LibreNMS organization's repository](https://github.com/librenms/docker)!**
 
 <p align="center"><a href="https://github.com/crazy-max/docker-librenms" target="_blank"><img height="128"src="https://raw.githubusercontent.com/crazy-max/docker-librenms/master/.res/docker-librenms.jpg"></a></p>
 
