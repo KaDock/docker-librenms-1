@@ -1,3 +1,5 @@
+### :boom: **This image is [now official](https://twitter.com/LibreNMS/status/1054678514845315072) and maintained on the [LibreNMS organization's repository](https://github.com/librenms)!**
+
 <p align="center"><a href="https://github.com/crazy-max/docker-librenms" target="_blank"><img height="128"src="https://raw.githubusercontent.com/crazy-max/docker-librenms/master/.res/docker-librenms.jpg"></a></p>
 
 <p align="center">
@@ -19,7 +21,7 @@ If you are interested, [check out](https://hub.docker.com/r/crazymax/) my other 
 ### Included
 
 * Alpine Linux 3.8, Nginx, PHP 7.2
-* Cron tasks as a ["sidecar" container](#cron)
+* Cron tasks as a ["sidecar" container](#crons)
 * Syslog-ng support through a ["sidecar" container](#syslog-ng)
 * Ability to configure [distributed polling](https://docs.librenms.org/#Extensions/Distributed-Poller/#distributed-poller)
 * Ability to add custom Monitoring plugins (Nagios)
@@ -187,7 +189,7 @@ To update the database manually, type the following command :
 $ docker exec -it --user librenms librenms php build-base.php
 ```
 
-### Cron
+### Crons
 
 If you want to enable the cron job, you have to run a "sidecar" container like in the [docker-compose file](examples/compose/docker-compose.yml) or run a simple container like this :
 
